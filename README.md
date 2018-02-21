@@ -1,19 +1,17 @@
 # Exercise 15.32
-Write a program that simulates car racing, as shown in Figure 15.34a. The car moves from left to right. When it hits the right end, it   restarts from the left and continues the same process. You can use a timer to control animation. Redraw the car with a new base coordinates (x, y), as shown in Figure 15.34b. Also let the user pause/resume the animation with a button press/release and increase/decrease the car speed by pressing the UP and DOWN arrow keys.
+Modify listing 14.21, ClockPane.java, to add the animation into this class and add two methods start() and stop() to start and stop the clock, respectively. Write a program that lets the user control the clock with Start and Stop buttons, as shown in figure 15.38a.
 
 ## Example Output
 ![Sample Output](README.png)
 
 ## Analysis Steps
-Create a car with shapes similar to figure 15.34. Then have the car move across the pane while being able to control the speed.
+Add animation and a stop and start feature to the previous 14.21 listing.
 
 ### Design
-Had to create a second class for the car.
 
 ### Testing
 
 ## Notes
-The car seems to jump when it goes from fully stopped to moving again.
 
 ## Do not change content below this line
 ## Adapted from a README Built With
